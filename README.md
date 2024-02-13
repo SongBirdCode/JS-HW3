@@ -2,12 +2,15 @@
 
 ## Goal
 
-To create a password generator using the given HTML and CSS in order to best practice JavaScript skills. 
+To create a password generator utilizing JavaScript with the given HTML and CSS.  
 
+## Given 
 
 The following image shows the web application's appearance and functionality given:
 
 ![The Password Generator application displays a red button to "Generate Password".](./Assets/03-javascript-homework-demo.png)
+
+## Result
 
 The following image shows the result: 
 
