@@ -23,7 +23,7 @@ var pwdCriteria = {
     "-", ".", "/", "\\", ":", ";", "<", ">", "=", "?", "@", "[", "]", "^", "_", "`", "{", "}", "|", "~"]//32
 }
 
-// Write password to the #password input on index.html
+// Write password so it may better connect #password input on index.html
 function writePassword() {
   //call generatePassword function
   var password = generatePassword();
@@ -38,10 +38,10 @@ function writePassword() {
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
 
-//function to handle the operations to generate a new password
+//function to handle generating a new password
 function generatePassword() {
 
-  //holds the password to be generated and returned 
+  //holds the password - generated and returned 
   var result = "";
 
   //variables to collect input from user prompts
@@ -65,7 +65,7 @@ function generatePassword() {
       return "Your secure password";
     }
     else {
-      //checking user enters an integer
+      //check for user enters an integer
       if (!isFinite(passwordLength)) {
         alert("You did not enter a number");
         return "Your secure password";
